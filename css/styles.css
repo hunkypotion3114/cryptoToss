@@ -1,0 +1,52 @@
+/* ELELMENTS */
+body{
+    background-color: rgba(77, 71, 71, 0.603);
+}
+footer{
+    text-align: center;
+}
+
+/* CLASS SELECTORS */
+
+/* Heading */
+
+.title{
+    font-size: 8rem;
+}
+
+/* REFRESH ICON */
+
+.refresh{
+    position: absolute;
+    top: 5;
+    left: 10;
+}
+
+.refresh-icon:hover{
+    transform: scale(1.2, 1.2);
+}
+
+/* TOGGLE CLASS OF REFRESH */
+
+.refresh-icon-onclick{
+    color: white;
+}
+
+/* COIN */
+
+.coin{
+    width: 80%;
+}
+
+
+/* CHANGES FOR MOBILE */
+
+@media screen  and (max-width: 500px) {
+    .refresh{
+        position: static;
+        text-align: center;
+    }
+}
+
+
+
